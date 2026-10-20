@@ -103,6 +103,8 @@ Safari 移植未增加权限。`key`、Chrome `update_url`、`use_dynamic_url` �
 
 ### Known Issues / Limitations
 
+仓库默认首页为英文 `README.md`，顶部可切换至 `README.zh-CN.md` 简体中文版；两版保留相同的功能、构建及版权授权说明，其他支持文档目前为中文。
+
 见 `PORTING_NOTES.md` 和 `VALIDATION.md`。没有自动更新；临时文件夹安装会过期，当前 Apple 签名应用已通过重启测试，但证书到期后需重新签名；账户及高级功能未全部验证；顶层推广收件箱使用 Safari 文档存活挑战兼容 Chrome 字段缺失；跨域推广 iframe renderer 仍受原版限制。扩展、框架、文档和学校来源检查均保留。
 
 ### Rejection History
