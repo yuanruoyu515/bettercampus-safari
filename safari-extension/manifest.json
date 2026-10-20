@@ -1,0 +1,144 @@
+{
+  "action": {
+    "default_icon": {
+      "128": "icon/icon-128.png",
+      "16": "icon/icon-16.png",
+      "32": "icon/icon-32.png",
+      "48": "icon/icon-48.png"
+    },
+    "default_title": "BetterCampus"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "exclude_matches": [
+        "https://ext.bettercampus.com/*"
+      ],
+      "js": [
+        "content-scripts/all.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "all_frames": true,
+      "js": [
+        "content-scripts/extension-bridge.js"
+      ],
+      "matches": [
+        "https://ext.bettercampus.com/*"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "js": [
+        "content-scripts/googlecalendar.js"
+      ],
+      "matches": [
+        "https://calendar.google.com/*"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "js": [
+        "content-scripts/outlookcalendar.js"
+      ],
+      "matches": [
+        "https://outlook.live.com/calendar/*",
+        "https://outlook.office.com/calendar/*",
+        "https://outlook.office365.com/calendar/*"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "all_frames": true,
+      "js": [
+        "content-scripts/stripe.js"
+      ],
+      "matches": [
+        "https://*.bettercampus.com/*"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "js": [
+        "content-scripts/theme.js"
+      ],
+      "matches": [
+        "https://bettercampus.com/community/themes/*",
+        "https://bettercampus.com/themes*",
+        "https://ext.bettercampus.com/themes*"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "all_frames": true,
+      "js": [
+        "content-scripts/viewer.js"
+      ],
+      "matches": [
+        "https://canvadocs.instructure.com/*"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "default_locale": "en",
+  "description": "Feature packed extension for Canvas.",
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "128": "icon/icon-128.png",
+    "16": "icon/icon-16.png",
+    "32": "icon/icon-32.png",
+    "48": "icon/icon-48.png"
+  },
+  "manifest_version": 3,
+  "name": "BetterCampus (Safari Local Port)",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "version": "9.8.15.1",
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "fonts/*.woff2",
+        "images/fonts/*.png",
+        "first-time/**/*.webm",
+        "BCPuzzle.gif",
+        "navigator/*.png",
+        "referrals/*.png"
+      ]
+    },
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "content-scripts/all.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://canvadocs.instructure.com/*"
+      ],
+      "resources": [
+        "content-scripts/viewer.css"
+      ]
+    }
+  ],
+  "browser_specific_settings": {
+    "safari": {
+      "strict_min_version": "16.4"
+    }
+  }
+}

@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AF9C32530870E1400E38CCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9C32430870E1400E38CCD /* AppDelegate.m */; };
+		5AF9C32930870E1400E38CCD /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C32730870E1400E38CCD /* Main.html */; };
+		5AF9C32B30870E1400E38CCD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C32A30870E1400E38CCD /* Icon.png */; };
+		5AF9C32D30870E1400E38CCD /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C32C30870E1400E38CCD /* Style.css */; };
+		5AF9C32F30870E1400E38CCD /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C32E30870E1400E38CCD /* Script.js */; };
+		5AF9C33230870E1400E38CCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9C33130870E1400E38CCD /* ViewController.m */; };
+		5AF9C33530870E1400E38CCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C33330870E1400E38CCD /* Main.storyboard */; };
+		5AF9C33730870E1600E38CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C33630870E1600E38CCD /* Assets.xcassets */; };
+		5AF9C33A30870E1600E38CCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9C33930870E1600E38CCD /* main.m */; };
+		5AF9C34030870E1600E38CCD /* BetterCampus Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5AF9C33F30870E1600E38CCD /* BetterCampus Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5AF9C34630870E1600E38CCD /* SafariWebExtensionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9C34530870E1600E38CCD /* SafariWebExtensionHandler.m */; };
+		5AF9C36030870E1600E38CCD /* first-time in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C35230870E1600E38CCD /* first-time */; };
+		5AF9C36130870E1600E38CCD /* BCPuzzle.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C35330870E1600E38CCD /* BCPuzzle.gif */; };
+		5AF9C36230870E1600E38CCD /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C35430870E1600E38CCD /* background.js */; };
+		5AF9C36330870E1600E38CCD /* images in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C35530870E1600E38CCD /* images */; };
+		5AF9C36430870E1600E38CCD /* referrals in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C35630870E1600E38CCD /* referrals */; };
+		5AF9C36530870E1600E38CCD /* cws.webp in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C35730870E1600E38CCD /* cws.webp */; };
+		5AF9C36630870E1600E38CCD /* content-scripts in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C35830870E1600E38CCD /* content-scripts */; };
+		5AF9C36730870E1600E38CCD /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C35930870E1600E38CCD /* manifest.json */; };
+		5AF9C36830870E1600E38CCD /* navigator in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C35A30870E1600E38CCD /* navigator */; };
+		5AF9C36930870E1600E38CCD /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C35B30870E1600E38CCD /* _locales */; };
+		5AF9C36A30870E1600E38CCD /* icon in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C35C30870E1600E38CCD /* icon */; };
+		5AF9C36B30870E1600E38CCD /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C35D30870E1600E38CCD /* fonts */; };
+		5AF9C36C30870E1600E38CCD /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C35E30870E1600E38CCD /* assets */; };
+		5AF9C36D30870E1600E38CCD /* safari-help.html in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9C35F30870E1600E38CCD /* safari-help.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AF9C34130870E1600E38CCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AF9C31830870E1400E38CCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AF9C33E30870E1600E38CCD;
+			remoteInfo = "BetterCampus Safari Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5AF9C34D30870E1600E38CCD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				5AF9C34030870E1600E38CCD /* BetterCampus Safari Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5AF9C32030870E1400E38CCD /* BetterCampus Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BetterCampus Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF9C32330870E1400E38CCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AF9C32430870E1400E38CCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AF9C32830870E1400E38CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		5AF9C32A30870E1400E38CCD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		5AF9C32C30870E1400E38CCD /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		5AF9C32E30870E1400E38CCD /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		5AF9C33030870E1400E38CCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5AF9C33130870E1400E38CCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5AF9C33430870E1400E38CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AF9C33630870E1600E38CCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AF9C33830870E1600E38CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF9C33930870E1600E38CCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AF9C33F30870E1600E38CCD /* BetterCampus Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BetterCampus Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF9C34430870E1600E38CCD /* SafariWebExtensionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariWebExtensionHandler.h; sourceTree = "<group>"; };
+		5AF9C34530870E1600E38CCD /* SafariWebExtensionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariWebExtensionHandler.m; sourceTree = "<group>"; };
+		5AF9C34730870E1600E38CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF9C35230870E1600E38CCD /* first-time */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "first-time"; path = "Resources/first-time"; sourceTree = "<group>"; };
+		5AF9C35330870E1600E38CCD /* BCPuzzle.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = BCPuzzle.gif; path = Resources/BCPuzzle.gif; sourceTree = "<group>"; };
+		5AF9C35430870E1600E38CCD /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		5AF9C35530870E1600E38CCD /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
+		5AF9C35630870E1600E38CCD /* referrals */ = {isa = PBXFileReference; lastKnownFileType = folder; name = referrals; path = Resources/referrals; sourceTree = "<group>"; };
+		5AF9C35730870E1600E38CCD /* cws.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = cws.webp; path = Resources/cws.webp; sourceTree = "<group>"; };
+		5AF9C35830870E1600E38CCD /* content-scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "content-scripts"; path = "Resources/content-scripts"; sourceTree = "<group>"; };
+		5AF9C35930870E1600E38CCD /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		5AF9C35A30870E1600E38CCD /* navigator */ = {isa = PBXFileReference; lastKnownFileType = folder; name = navigator; path = Resources/navigator; sourceTree = "<group>"; };
+		5AF9C35B30870E1600E38CCD /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = Resources/_locales; sourceTree = "<group>"; };
+		5AF9C35C30870E1600E38CCD /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icon; path = Resources/icon; sourceTree = "<group>"; };
+		5AF9C35D30870E1600E38CCD /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = Resources/fonts; sourceTree = "<group>"; };
+		5AF9C35E30870E1600E38CCD /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = Resources/assets; sourceTree = "<group>"; };
+		5AF9C35F30870E1600E38CCD /* safari-help.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "safari-help.html"; path = "Resources/safari-help.html"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AF9C31D30870E1400E38CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		5AF9C33C30870E1600E38CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AF9C31730870E1400E38CCD = {
+			isa = PBXGroup;
+			children = (
+				5AF9C32230870E1400E38CCD /* BetterCampus Safari */,
+				5AF9C34330870E1600E38CCD /* BetterCampus Safari Extension */,
+				5AF9C32130870E1400E38CCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AF9C32130870E1400E38CCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AF9C32030870E1400E38CCD /* BetterCampus Safari.app */,
+				5AF9C33F30870E1600E38CCD /* BetterCampus Safari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AF9C32230870E1400E38CCD /* BetterCampus Safari */ = {
+			isa = PBXGroup;
+			children = (
+				5AF9C32330870E1400E38CCD /* AppDelegate.h */,
+				5AF9C32430870E1400E38CCD /* AppDelegate.m */,
+				5AF9C33030870E1400E38CCD /* ViewController.h */,
+				5AF9C33130870E1400E38CCD /* ViewController.m */,
+				5AF9C33330870E1400E38CCD /* Main.storyboard */,
+				5AF9C33630870E1600E38CCD /* Assets.xcassets */,
+				5AF9C33830870E1600E38CCD /* Info.plist */,
+				5AF9C33930870E1600E38CCD /* main.m */,
+				5AF9C32630870E1400E38CCD /* Resources */,
+			);
+			path = "BetterCampus Safari";
+			sourceTree = "<group>";
+		};
+		5AF9C32630870E1400E38CCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5AF9C32730870E1400E38CCD /* Main.html */,
+				5AF9C32A30870E1400E38CCD /* Icon.png */,
+				5AF9C32C30870E1400E38CCD /* Style.css */,
+				5AF9C32E30870E1400E38CCD /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5AF9C34330870E1600E38CCD /* BetterCampus Safari Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5AF9C35130870E1600E38CCD /* Resources */,
+				5AF9C34430870E1600E38CCD /* SafariWebExtensionHandler.h */,
+				5AF9C34530870E1600E38CCD /* SafariWebExtensionHandler.m */,
+				5AF9C34730870E1600E38CCD /* Info.plist */,
+			);
+			path = "BetterCampus Safari Extension";
+			sourceTree = "<group>";
+		};
+		5AF9C35130870E1600E38CCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5AF9C35230870E1600E38CCD /* first-time */,
+				5AF9C35330870E1600E38CCD /* BCPuzzle.gif */,
+				5AF9C35430870E1600E38CCD /* background.js */,
+				5AF9C35530870E1600E38CCD /* images */,
+				5AF9C35630870E1600E38CCD /* referrals */,
+				5AF9C35730870E1600E38CCD /* cws.webp */,
+				5AF9C35830870E1600E38CCD /* content-scripts */,
+				5AF9C35930870E1600E38CCD /* manifest.json */,
+				5AF9C35A30870E1600E38CCD /* navigator */,
+				5AF9C35B30870E1600E38CCD /* _locales */,
+				5AF9C35C30870E1600E38CCD /* icon */,
+				5AF9C35D30870E1600E38CCD /* fonts */,
+				5AF9C35E30870E1600E38CCD /* assets */,
+				5AF9C35F30870E1600E38CCD /* safari-help.html */,
+			);
+			name = Resources;
+			path = "BetterCampus Safari Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AF9C31F30870E1400E38CCD /* BetterCampus Safari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF9C34E30870E1600E38CCD /* Build configuration list for PBXNativeTarget "BetterCampus Safari" */;
+			buildPhases = (
+				5AF9C31C30870E1400E38CCD /* Sources */,
+				5AF9C31D30870E1400E38CCD /* Frameworks */,
+				5AF9C31E30870E1400E38CCD /* Resources */,
+				5AF9C34D30870E1600E38CCD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AF9C34230870E1600E38CCD /* PBXTargetDependency */,
+			);
+			name = "BetterCampus Safari";
+			productName = "BetterCampus Safari";
+			productReference = 5AF9C32030870E1400E38CCD /* BetterCampus Safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AF9C33E30870E1600E38CCD /* BetterCampus Safari Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF9C34A30870E1600E38CCD /* Build configuration list for PBXNativeTarget "BetterCampus Safari Extension" */;
+			buildPhases = (
+				5AF9C33B30870E1600E38CCD /* Sources */,
+				5AF9C33C30870E1600E38CCD /* Frameworks */,
+				5AF9C33D30870E1600E38CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			name = "BetterCampus Safari Extension";
+			productName = "BetterCampus Safari Extension";
+			productReference = 5AF9C33F30870E1600E38CCD /* BetterCampus Safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AF9C31830870E1400E38CCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					5AF9C31F30870E1400E38CCD = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					5AF9C33E30870E1600E38CCD = {
+						CreatedOnToolsVersion = 27.1;
+					};
+				};
+			};
+			buildConfigurationList = 5AF9C31B30870E1400E38CCD /* Build configuration list for PBXProject "BetterCampus Safari" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AF9C31730870E1400E38CCD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5AF9C32130870E1400E38CCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AF9C31F30870E1400E38CCD /* BetterCampus Safari */,
+				5AF9C33E30870E1600E38CCD /* BetterCampus Safari Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AF9C31E30870E1400E38CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				5AF9C32B30870E1400E38CCD /* Icon.png in Resources */,
+				5AF9C33530870E1400E38CCD /* Main.storyboard in Resources */,
+				5AF9C32F30870E1400E38CCD /* Script.js in Resources */,
+				5AF9C32930870E1400E38CCD /* Main.html in Resources */,
+				5AF9C33730870E1600E38CCD /* Assets.xcassets in Resources */,
+				5AF9C32D30870E1400E38CCD /* Style.css in Resources */,
+			);
+		};
+		5AF9C33D30870E1600E38CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				5AF9C36C30870E1600E38CCD /* assets in Resources */,
+				5AF9C36830870E1600E38CCD /* navigator in Resources */,
+				5AF9C36330870E1600E38CCD /* images in Resources */,
+				5AF9C36D30870E1600E38CCD /* safari-help.html in Resources */,
+				5AF9C36630870E1600E38CCD /* content-scripts in Resources */,
+				5AF9C36B30870E1600E38CCD /* fonts in Resources */,
+				5AF9C36430870E1600E38CCD /* referrals in Resources */,
+				5AF9C36030870E1600E38CCD /* first-time in Resources */,
+				5AF9C36A30870E1600E38CCD /* icon in Resources */,
+				5AF9C36730870E1600E38CCD /* manifest.json in Resources */,
+				5AF9C36230870E1600E38CCD /* background.js in Resources */,
+				5AF9C36130870E1600E38CCD /* BCPuzzle.gif in Resources */,
+				5AF9C36930870E1600E38CCD /* _locales in Resources */,
+				5AF9C36530870E1600E38CCD /* cws.webp in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AF9C31C30870E1400E38CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				5AF9C33230870E1400E38CCD /* ViewController.m in Sources */,
+				5AF9C33A30870E1600E38CCD /* main.m in Sources */,
+				5AF9C32530870E1400E38CCD /* AppDelegate.m in Sources */,
+			);
+		};
+		5AF9C33B30870E1600E38CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				5AF9C34630870E1600E38CCD /* SafariWebExtensionHandler.m in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AF9C34230870E1600E38CCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AF9C33E30870E1600E38CCD /* BetterCampus Safari Extension */;
+			targetProxy = 5AF9C34130870E1600E38CCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AF9C32730870E1400E38CCD /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AF9C32830870E1400E38CCD /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		5AF9C33330870E1400E38CCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AF9C33430870E1400E38CCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AF9C34830870E1600E38CCD /* Debug configuration for PBXProject "BetterCampus Safari" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5AF9C34930870E1600E38CCD /* Release configuration for PBXProject "BetterCampus Safari" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5AF9C34B30870E1600E38CCD /* Debug configuration for PBXNativeTarget "BetterCampus Safari Extension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 981501;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BetterCampus Safari Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BetterCampus Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 9.8.15.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.bettercampus.safariport.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		5AF9C34C30870E1600E38CCD /* Release configuration for PBXNativeTarget "BetterCampus Safari Extension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 981501;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BetterCampus Safari Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BetterCampus Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 9.8.15.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.bettercampus.safariport.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		5AF9C34F30870E1600E38CCD /* Debug configuration for PBXNativeTarget "BetterCampus Safari" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 981501;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BetterCampus Safari/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BetterCampus Safari";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 9.8.15.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.bettercampus.safariport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		5AF9C35030870E1600E38CCD /* Release configuration for PBXNativeTarget "BetterCampus Safari" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 981501;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BetterCampus Safari/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BetterCampus Safari";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 9.8.15.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.bettercampus.safariport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AF9C31B30870E1400E38CCD /* Build configuration list for PBXProject "BetterCampus Safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF9C34830870E1600E38CCD /* Debug configuration for PBXProject "BetterCampus Safari" */,
+				5AF9C34930870E1600E38CCD /* Release configuration for PBXProject "BetterCampus Safari" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		5AF9C34A30870E1600E38CCD /* Build configuration list for PBXNativeTarget "BetterCampus Safari Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF9C34B30870E1600E38CCD /* Debug configuration for PBXNativeTarget "BetterCampus Safari Extension" */,
+				5AF9C34C30870E1600E38CCD /* Release configuration for PBXNativeTarget "BetterCampus Safari Extension" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		5AF9C34E30870E1600E38CCD /* Build configuration list for PBXNativeTarget "BetterCampus Safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF9C34F30870E1600E38CCD /* Debug configuration for PBXNativeTarget "BetterCampus Safari" */,
+				5AF9C35030870E1600E38CCD /* Release configuration for PBXNativeTarget "BetterCampus Safari" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AF9C31830870E1400E38CCD /* Project object */;
+	validationLevel = 1;
+}

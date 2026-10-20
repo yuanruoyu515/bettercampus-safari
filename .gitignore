@@ -1,0 +1,21 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.cer
+*.mobileprovision
+*.provisionprofile
+*.key
+*.pem
+*.app/
+*.appex/
+*.dSYM/
+*.zip
+Build/
+DerivedData/
+work/
+xcuserdata/
+*.xcuserstate
+AppleSignedXcode/BetterCampus Safari Extension/Resources/
